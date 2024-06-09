@@ -13,7 +13,12 @@ jobs:
     - name: Clona el repositorio
       uses: actions/checkout@v3
 
-    - name: Build and Deploy
+    - name: configura nodejs  
+      uses: actions/setup-node@v3
+      with:
+          node-version: '18' 
+
+    - name: Build y Deploy
       run: |
         # Configurar Surge.sh
         npm install --global surge
