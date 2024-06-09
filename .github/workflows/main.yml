@@ -20,4 +20,4 @@ jobs:
         env:
           SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
-        run: surge --project ./ --domain angelbather0.surge.sh
+        run: surge --project ./ --domain asds.surge.sh
